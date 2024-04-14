@@ -41,7 +41,7 @@ public class Game {
     /***
      *
      * @param hand An Array of Cards
-     * @return true if three of a kind, false if not.
+     * @return true if four of a kind, false if not.
      */
     public static boolean fourOfAKind(Card[] hand) {
         Arrays.sort(hand, (a, b) -> a.getFace().compareTo(b.getFace()));
